@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .form-signin-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom: 2px solid #2196F3;
+  }
+  
+  .btn-primary {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0c7cd5;
+  }
+  
